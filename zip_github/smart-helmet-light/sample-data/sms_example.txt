@@ -1,0 +1,1 @@
+EMERGENCY: Smart Helmet detected a possible crash and the rider did not cancel the alert. Location: https://maps.google.com/?q=18.943210,72.823870 (time: 12 Oct 2026 18:14)

@@ -1,0 +1,8 @@
+{"char":"STATUS","note":"1 Hz, daylight","payload":{"night":0,"ldr":3120,"st":"IDLE"}}
+{"char":"STATUS","note":"1 Hz, dusk -> night mode ON","payload":{"night":1,"ldr":640,"st":"IDLE"}}
+{"char":"STATUS","note":"1 Hz, optional NEO-6M has a fix","payload":{"night":1,"ldr":610,"st":"IDLE","lat":18.943210,"lon":72.823870}}
+{"char":"EVENT","note":"hard braking, 0.52 g, 84 s after boot","payload":{"e":"HARD_BRAKE","v":0.52,"t":84210}}
+{"char":"EVENT","note":"impact 9.2 g, rider still -> buzzer countdown started","payload":{"e":"CRASH_COUNTDOWN","v":9.2,"t":512340}}
+{"char":"EVENT","note":"rider pressed I'M OK within 10 s","payload":{"e":"CRASH_CANCELLED","v":0.00,"t":516980}}
+{"char":"EVENT","note":"countdown expired -> phone sends the SMS","payload":{"e":"CRASH_CONFIRMED","v":9.2,"t":522340}}
+{"char":"COMMAND","note":"phone -> helmet (write, plain text, not JSON)","payload":"CANCEL"}
